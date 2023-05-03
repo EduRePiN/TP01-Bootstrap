@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand span{
+    color: white;
+}
+
+.navbar{
+    background-color: #343b40;
+}
+
+.navbar-brand{
+    padding-left: 50px;
+}
+
+.nav-item a{
+    font-size: 20px;
+    color: grey;
+}
+
+#conferencia{
+    color: white;
+}
+
+#navbarNav{
+    padding-left: 500px;
+}
+
+#ticket{
+    color: green;
+    font-weight: 600;
+}
+
+.mi-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+      ) 
+      ,url("/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.textoBsAs{
+    position: absolute;
+    text-align: right;
+    width: 50%;
+    color: white;
+    right: 5%;
+    top: 40%;
+}
+
+.oradores-titulo{
+    text-align: center;
+}
+
+.card{
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#oradores-tarjetas{
+    align-content: center;
+}
+
+#bsas-octubre{
+    background-color: #353a40;
+}
+
+.tercero h5, p{
+    color: white;
+}
