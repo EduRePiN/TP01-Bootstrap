@@ -75,6 +75,11 @@
     background-color: #353a40;
 }
 
-.tercero h5, p{
+#bsastexto{
     color: white;
+}
+
+.container .formulario{
+    justify-content: center;
+    padding: 10px;
 }

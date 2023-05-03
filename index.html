@@ -87,16 +87,16 @@
     </div>
   </section>
 
-  <section class="tercero">
+  <section>
     <div class="card">
-      <div class="row">
+      <div class="row g-1">
         <div class="col-lg-6">
-          <img src="./img/honolulu.jpg" class="img-fluid rounded-start" alt="honolulu">
+          <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu">
         </div>
         <div class="col-lg-6" id="bsas-octubre">
           <div class="card-body">
-            <h5 class="card-title">Bs As - Octubre</h5>
-            <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
+            <h5 class="card-title" id="bsastexto">Bs As - Octubre</h5>
+            <p class="card-text" id="bsastexto">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
             <button type="button" class="btn btn-outline-light">Conocé más</button>
           </div>
         </div>
@@ -105,28 +105,30 @@
   </section>
 
   <section class="container">
-    <div>
-      <h4>CONVIÉRTETE EN UN</h4>
-      <H2>ORADOR</H2>
-      <P>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</P>
+    <div class="titulos text-center">
+      <p>CONVIÉRTETE EN UN</p>
+      <h3>ORADOR</h3>
+      <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
     </div>
-    <div class="row">
-      <div class="col-4">
-        <label for="exampleFormControlInput1" class="form-label"></label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+    <div class="formulario">
+      <div class="row">
+        <div class="col-5">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        </div>
+        <div class="col-5">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+        </div>
       </div>
-      <div class="col-4">
-        <label for="exampleFormControlInput1" class="form-label"></label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+      <div class="col-10">
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
       </div>
-    </div>
-    <div class="col-8">
-      <label for="exampleFormControlTextarea1" class="form-label"></label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
-    </div>
-    <span>Recuerda incluir un titulo para tu charla</span>
-    <div class="d-grid mb-3">
-      <button class="btn text-white fs-5" style="background-color: #96c93e;" type="submit">Enviar</button>
+      <span>Recuerda incluir un titulo para tu charla</span>
+      <div class="d-grid mb-3 col-10">
+        <button class="btn text-white fs-5" style="background-color: #96c93e;" type="submit">Enviar</button>
+      </div>
     </div>
   </section>
 
