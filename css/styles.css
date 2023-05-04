@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-.navbar-brand span{
-    color: white;
-}
-
-.navbar{
+nav{
     background-color: #343b40;
 }
 
@@ -16,22 +12,25 @@
     padding-left: 50px;
 }
 
-.nav-item a{
-    font-size: 20px;
-    color: grey;
+.navbar-links{
+    padding-left: 300px;
 }
 
-#conferencia{
+.navbar-toggler-icon{
     color: white;
 }
-
-#navbarNav{
-    padding-left: 500px;
+#conferencia{
+    color: white;
 }
 
 #ticket{
     color: green;
     font-weight: 600;
+}
+
+.nav-item a{
+    font-size: 20px;
+    color: grey;
 }
 
 .mi-container{
