@@ -43,7 +43,7 @@
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
       ) 
-      ,url("./img/ba1.jpg");
+      ,url("../img/ba1.jpg");
     background-size: cover;
     background-position: center;
     height: 90vh;
