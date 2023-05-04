@@ -83,3 +83,32 @@
     justify-content: center;
     padding: 5%;
 }
+
+footer{
+    display: flex;
+    background-color: #1f4e6d;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-footer{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 767px){
+    .div-footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: start;
+    }
+}
