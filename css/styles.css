@@ -111,3 +111,13 @@ footer{
         justify-content: start;
     }
 }
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+   text-align: center;
+}
