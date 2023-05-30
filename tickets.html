@@ -76,18 +76,40 @@
         <form>
             <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required="">
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required="">
                 </div>
-                <div class="col-12  py-2">
+                <div class="col-12 py-2">
                     <input id="email" type="email" name="email" class="form-control" placeholder="Correo" required="">
+                </div>
+                <div class="col-md-6 text-start py-2">
+                    <label for="cantidad" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control" id="cantidad" placeholder="Cantidad" minlength="1">
+                </div>
+                <div class="col-md-6 text-start py-2">
+                    <label for="categoria" class="form-label">Categoria</label>
+                    <select id="categoria" class="form-select">
+                        <option selected>Estudiante</option>
+                        <option>Trainee</option>
+                        <option>Junior</option>
+                    </select>
+                </div>
+                <div class="col-12 px-2">
+                    <input class="form-control p-3 my-3" type="text" value="Total a Pagar: $" style="background-color: #cde4ff" aria-label="readonly input example" readonly>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-6 py-1" >
+                    <button class="btn btn-success col-12" style="--bs-btn-bg: #96c93f;" type="reset">Borrar</button>
+                </div>
+                <div class="col-6 py-1">
+                    <button class="btn btn-success col-12" style="--bs-btn-bg: #96c93f;" name="submit" type="button" id="submit1" onclick="calcular()">Resumen</button>
                 </div>
             </div>
         </form>
     </div>
-
 
     <footer>
     <div class="div-footer">
