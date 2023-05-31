@@ -76,13 +76,13 @@
         <form>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required="">
+                    <input type="text" class="form-control" placeholder="Nombre" id="nombre" aria-label="First name" required="">
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required="">
+                    <input type="text" class="form-control" placeholder="Apellido" id="apellido" aria-label="Last name" required="">
                 </div>
                 <div class="col-12 py-2">
-                    <input id="email" type="email" name="email" class="form-control" placeholder="Correo" required="">
+                    <input id="email" type="email" name="email" class="form-control" id="email" placeholder="Correo" required="">
                 </div>
                 <div class="col-md-6 text-start py-2">
                     <label for="cantidad" class="form-label">Cantidad</label>
@@ -91,13 +91,13 @@
                 <div class="col-md-6 text-start py-2">
                     <label for="categoria" class="form-label">Categoria</label>
                     <select id="categoria" class="form-select">
-                        <option selected>Estudiante</option>
-                        <option>Trainee</option>
-                        <option>Junior</option>
+                        <option id="estudiante" selected>Estudiante</option>
+                        <option id="trainee">Trainee</option>
+                        <option id="junior">Junior</option>
                     </select>
                 </div>
                 <div class="col-12 px-2">
-                    <input class="form-control p-3 my-3" type="text" value="Total a Pagar: $" style="background-color: #cde4ff" aria-label="readonly input example" readonly>
+                    <input class="form-control p-3 my-3" type="text" id="total" value="" placeholder="Total a Pagar: $" style="background-color: #cde4ff" aria-label="readonly input example" readonly>
                 </div>
             </div>
             <div class="row py-3">
@@ -105,7 +105,7 @@
                     <button class="btn btn-success col-12" style="--bs-btn-bg: #96c93f;" type="reset">Borrar</button>
                 </div>
                 <div class="col-6 py-1">
-                    <button class="btn btn-success col-12" style="--bs-btn-bg: #96c93f;" name="submit" type="button" id="submit1" onclick="calcular()">Resumen</button>
+                    <button class="btn btn-success col-12" style="--bs-btn-bg: #96c93f;" name="submit" type="button" id="submit1" onclick="calcularPrecio()">Resumen</button>
                 </div>
             </div>
         </form>
